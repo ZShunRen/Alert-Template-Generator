@@ -1,0 +1,8 @@
+bleach
+cmake
+flask
+pydantic-settings
+scikit-build 
+setuptools
+tensorflow
+waitress

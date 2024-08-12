@@ -1,0 +1,27 @@
+version: '3'
+services:
+  q6_production_model:
+    image: q6_llama3_image:v1.1
+    ports:
+      - "5000:80"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: always
+  # q6_production_model:
+  #   image: q6_llama3_image_cpu:v1.0
+  #   ports:
+  #     - "5000:80"
+  #   restart: always
+  llm_website:
+    ports:
+      - "3200:80"
+    image: llm_website:v1.0
+    restart: always
+
+
+

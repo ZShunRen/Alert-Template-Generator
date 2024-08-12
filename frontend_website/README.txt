@@ -1,0 +1,1 @@
+To change the IP, go into '.env' and change the value of the ip address there, then run 'docker build -t llm_website:<insert version number here>'-> alter the image tag in docker-compose.yml -> run 'docker compose down && docker compose up --force-recreate'

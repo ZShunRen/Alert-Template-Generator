@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-right a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .breadcrumbs {
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumbs a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  .main-content h2 {
+    margin-top: 0;
+    cursor: pointer;
+  }
+  
+  .singcert-logo {
+    margin-top: 20px;
+  }
+  
+  .singcert-logo img {
+    height: 100px;
+  }
+  
