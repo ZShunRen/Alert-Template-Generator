@@ -1,4 +1,4 @@
-#Article Template Generator
+# Article Template Generator
 A project utilising a finetuned Llama-3 model and automated data feeds through the GodWatch project to automate and reduce time spent on writing alerts in 
 ## Description
 There are 2 main components of this project, the frontend and backend
